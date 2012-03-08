@@ -1,6 +1,7 @@
 alert("JavaScript works!");
 //Author: Myron B Carroll
 // SDI Assignment 2
+// 8 March 2012
 // a Studion session
 
 console.log("After hearing the work I did on my wife's song that I recorded last week, the manager for another artist contracted me to produce their latest single.")
@@ -22,7 +23,7 @@ var musicians = ["Quinton", "Leeland", "Steve", "Ron"];
 	times = ["10:00am", "11:30am", "12:30pm", "1:30pm"];
 	//For loop	
 for (var i=0, m=musicians.length; i< m; i++){
-	console.log(musicians[i] + " is scheduled for " +times[i]+ ".")
+	console.log(musicians[i] + " is scheduled for " +times[i]+ " on " +instruments[i]+ ".")
 };
 console.log("After I get the instruments laid down. I have the Background Vocals to do.");
 console.log("I have the 2 female singers booked. I just have to see if Jason can sing the male part")
